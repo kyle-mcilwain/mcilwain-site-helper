@@ -1,0 +1,11 @@
+/* Ensure footer sticks to bottom on tall screens */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Small visual feedback on duress button click */
+#duressBtn:active {
+  transform: scale(0.97);
+}
